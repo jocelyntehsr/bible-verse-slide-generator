@@ -67,6 +67,6 @@
 	<pre>python3 api_gen_csv.py</pre>
 
 4) Depending on your need, run either `gen_bible_verse.py` or `gen_main_ppt.py` to generate the powerpoint slides using the verses generated from (3).
-	> [!WARNING]  
-	> I added English verses csv externally for both scripts, feel free to remove the df with `bible_verses_en.csv`. 
+> [!WARNING]  
+> I added English verses csv externally for both scripts, feel free to remove the df with `bible_verses_en.csv`. 
 
