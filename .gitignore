@@ -1,0 +1,3 @@
+*.csv
+gen_quote_for_en.py
+__pycache__/
