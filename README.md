@@ -2,7 +2,11 @@
 
 <b>Project Purpose:</b> Streamline the process of copy-paste of Bible Verses to PowerPoint Slides into using Python script to automate the process.
 
-<b>Project Working Mechanism:</b> Using pandas df to map the relative bible verses into presentation slides. 
+<b>Project Working Mechanism:</b> 
+1) Download bible in CSV file format
+2) Read the bible as a csv file using pandas df
+3) Extract the required bible verses into another CSV file
+4) Write the bible verses into presentation slides using `python-pptx` library.
 
 ------------------------------------------------------------
 
