@@ -1,12 +1,15 @@
 # bible-verse-slide-generator
 
-<b>Project Purpose:</b> Streamline the process of copy-paste of Bible Verses to PowerPoint Slides into using Python script to automate the process.
+<b>Project Purpose:</b> Streamline the process of copy-paste of Bible Verses to PowerPoint Slides into slides automation using Python script.
 
 <b>Project Working Mechanism:</b> 
 1) Download bible in CSV file format
 2) Read the bible as a csv file using pandas df
 3) Extract the required bible verses into another CSV file
 4) Write the bible verses into presentation slides using `python-pptx` library.
+
+> [!IMPORTANT]
+> Does it mean we don't need to read bible when preparing anymore? NO. This is just an efficiency tool. <b>It is your responsibility to read the word of God.</b>
 
 ------------------------------------------------------------
 
