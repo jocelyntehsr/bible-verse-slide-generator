@@ -57,13 +57,14 @@ def query_sermon_bible(reference: str):
         result = f"{book_en} {chapter_verse}"
 
         subset["Title (EN)"] = result
+        subset["Book Name (EN)"] = book_en
 
     return subset
 
 # ====== Example Usage ======
 if __name__ == "__main__":
-    ref = ["以西结书 14:4-5","以西结书 14:12-16","以西结书 14:21-22","以西结书 16:9-11",
-           "以西结书 16:15-19","以西结书 16:20-21","以西结书 17:1-4","以西结书 17:22-24","以西结书 18:1-13"]
+    ref = ["约翰福音 10:11-15",
+    "彼得前书 5:2-11"]
     verses_list = []
 
     for i in ref:

@@ -53,7 +53,7 @@ for (_, row1), (_,row2) in zip(df.iterrows(), eng_df.iterrows()):
     slide = prs.slides.add_slide(prs.slide_layouts[6])  # Blank
 
     chinese_title = f"{row1['Book Name']} {row1['Chapter']}:{row1['Verse']}"
-    english_title = f"{row2['Book Name']} {row2['Chapter']}:{row2['Verse']}"
+    english_title = f"{row1['Book Name (EN)']} {row1['Chapter']}:{row1['Verse']}"
 
     # Background black
 #    background_image_path = "background.jpg"
@@ -72,5 +72,5 @@ for (_, row1), (_,row2) in zip(df.iterrows(), eng_df.iterrows()):
     add_textbox_auto_font(slide, 0.25, 4.25, 12.8, 2.75, row2['CleanText'], "Calibri", 35, bold=True, align=PP_ALIGN.LEFT)
 
 # === Save ===
-prs.save("WW35_main_slide.pptx")
+prs.save("WW40_main_slide.pptx")
 print("✅ Presentation created: Main_Slide.pptx")

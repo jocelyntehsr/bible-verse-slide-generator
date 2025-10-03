@@ -7,7 +7,6 @@ import re
 # If CSV instead:
 df = pd.read_csv(r"C:\Users\user\Downloads\Slide_Automation\cuv_clean.csv")
 
-
 # Function to remove Strong's numbers
 def clean_text(text):
     # Removes {H1234} or {G5678}

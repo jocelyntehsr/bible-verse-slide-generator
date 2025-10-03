@@ -69,5 +69,5 @@ for (_, row1), (_,row2) in zip(df1.iterrows(), df2.iterrows()):
     add_textbox_auto_font(slide, 0.5, 2.125, 9.5, 1.625, row2['CleanText'], "Calibri", 25, bold=True, align=PP_ALIGN.LEFT)
 
 # === Save ===
-prs.save("ww35_圣经经节.pptx")
+prs.save("ww39_圣经经节.pptx")
 print("✅ Presentation created: 圣经经节.pptx")
